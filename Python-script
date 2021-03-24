@@ -3,6 +3,6 @@ b = float(input())
 c = float(input())
 
 if a + b + c == 180:
-    print("Могут")
+print("Могут")
 else:
-    print("Не могут")
+print("Не могут")
