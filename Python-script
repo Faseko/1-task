@@ -2,7 +2,11 @@ a = float(input())
 b = float(input())
 c = float(input())
 
-if a + b + c == 180:
-print("Могут")
-else:
-print("Не могут")
+class Sum():
+		def __init__(self, X=180):
+			self.X = X
+		def check(a, b, c):
+			if a + b + c == self.X:
+				print("Верно")
+			else: 
+				print("Не верно")
