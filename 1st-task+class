@@ -1,0 +1,14 @@
+a = float(input())
+b = float(input())
+c = float(input())
+
+class Sum():
+		def __init__(self, X):
+			self.X = X 
+			s = Sum(a+b+c)
+			
+		def check(self, a:int, b: int, b: int) -> bool:
+			return self.X == a + b + c
+			
+			
+print(s.check())
